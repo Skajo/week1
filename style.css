@@ -1,0 +1,128 @@
+body
+{
+    margin: auto;
+    padding: 0;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 300;
+
+
+}
+
+.container
+{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgb(199, 28, 199), rgb(7, 7, 138));
+    align-items:center;
+    display: flex;
+    justify-content: center;
+}
+
+.middle-box
+{
+    text-align: center;
+    color: white;
+    opacity: 0.8;
+}
+
+.nav
+{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-icon
+{
+    border:solid 1px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 25px 8px;
+
+}
+
+.nav-icon a
+{
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+
+
+.counter
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.counter-icon
+{
+    border:solid 1px;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    margin: 40px 20px 0px 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1.5em;
+}
+
+.counter-label
+{
+    display: flex;
+    justify-content: center;
+}
+
+.counter-text
+{
+    width: 90px;
+    margin: 0px 20px;
+}
+
+
+.button
+{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.button-text
+{
+    color: rgb(199, 28, 199);
+    background-color: #fff;
+    border-radius:15px;
+    padding: 0px 15px;
+    font-weight: 900;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    border: solid 1px;
+}
+
+.button-text:hover
+{
+    background-color: rgb(199, 28, 199);
+    color: #fff;
+    border-color: rgb(199, 28, 199);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-icon:hover
+{
+    background-color: rgba(255,255,255,0.5);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
